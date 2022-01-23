@@ -11,9 +11,11 @@
 
 # print(chet(10))
 
-n = int(input('Введите n: '))  # решение без метода
+# n = int(input('Введите n: '))  
 
-ran = range(1, n+1)
-for i in ran:
-    if i%2==0:
-        print(i)
+def chet(n):
+    for i in range(1, n+1):
+        if i%2==0:
+            print(i)
+    return i
+print(chet(10))            
