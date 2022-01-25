@@ -5,6 +5,5 @@ import math
 def tabl_sqrt(n):
     for i in range(1,n+1):
         print (f'квадрат числа {i} =  {math.pow(i, 2)}')
-    return i
-
+    return n
 print(tabl_sqrt(n))        
